@@ -64,7 +64,7 @@ class RocomTargetBot:
 				return None
 
 	async def send_webhook(self, hit_list):
-		title = "📢 【洛克王国】物资刷新提醒！\n"
+		title = "📢 【洛克王国】稀有物资刷新提醒！\n"
 		body = "\n".join(hit_list)
 
 		# 【优化】推送里的检测时间也要用北京时间
@@ -75,7 +75,7 @@ class RocomTargetBot:
 			"msgtype": "text",
 			"text": {
 				"content": f"{title}---------------------------\n{body}{footer}",
-				"mentioned_list": ["@all"]
+				"mentioned_list": [""]
 			}
 		}
 
