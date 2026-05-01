@@ -14,7 +14,7 @@ class RocomTargetBot:
 		self.gist_token = os.getenv("GIST_TOKEN")
 
 		self.api_base_url = "https://wegame.shallow.ink"
-		self.target_keywords = ["棱镜", "棱彩", "祝福", "炫彩", "国王", "奇异血脉","晶"] #"果", "晶", "玉", "蛋"
+		self.target_keywords = ["棱镜", "棱彩", "祝福", "炫彩", "国王", "奇异血脉"] #"果", "晶", "玉", "蛋"
 		self.beijing_tz = timezone(timedelta(hours=8))
 
 	def get_beijing_now(self):
