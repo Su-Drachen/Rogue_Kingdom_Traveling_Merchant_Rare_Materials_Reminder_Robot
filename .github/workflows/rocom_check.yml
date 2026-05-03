@@ -4,7 +4,7 @@ on:
   schedule:
     # 建议每30分钟运行一次，或者保留你的关键时间点
     # 只要 Gist 里记录了该窗口已成功，多余的运行不会触发推送
-    - cron: '6 * * * *'
+    - cron: '47 * * * *'
   workflow_dispatch:
 
 jobs:
